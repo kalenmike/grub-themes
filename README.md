@@ -6,16 +6,15 @@
 
 ### Install Instructions for Ubuntu
 
-1. Download the [tar file](anime/anime.tar.xz)
-2. Extract the file
-3. Copy the contents to /boot/grub/themes/
-4. Edit /etc/default/grub by adding
+1. Download and extract the [tar file](anime/anime.tar.xz)
+2. Copy the contents to ```/boot/grub/themes/```
+3. Edit ```/etc/default/grub``` by adding
 ```bash
 GRUB_THEME=/boot/grub/themes/anime/theme.txt
 ```
-5. Update GRUB
+4. Update GRUB
 ```bash
-sudo udpate-grub
+sudo update-grub
 ```
 6. Reboot and see your new GRUB menu
 
